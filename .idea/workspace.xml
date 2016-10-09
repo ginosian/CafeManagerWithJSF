@@ -2,349 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88bab4f-b6b2-4854-a0ec-0d216df7a2ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/managedbeans/AuthController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/managedbeans/AuthController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/configuration/ConfigurationsSpring.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/configuration/ConfigurationsSpring.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/exception/CustomException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/exception/CustomException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/db/DBImitation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/DBImitation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/entity/EmployeeDTO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entity/EmployeeDTO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/form/EmployeeForm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/form/EmployeeForm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/form/EmployeesPopupForm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/form/EmployeesPopupForm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/validator/ErrorTypes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/validator/ErrorTypes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/configuration/InitSpringAppContext.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/configuration/InitSpringAppContext.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/managedbeans/ManagerController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/managedbeans/ManagerController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/exception/NoSuchOrderException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/exception/NoSuchOrderException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/exception/NoSuchProductException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/exception/NoSuchProductException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/exception/NoSuchRoleException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/exception/NoSuchRoleException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/exception/NoSuchTableException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/exception/NoSuchTableException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/exception/NoSuchUserException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/exception/NoSuchUserException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/exception/NullOrEmptyArgumentsException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/exception/NullOrEmptyArgumentsException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/util/Nullable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/util/Nullable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/dao/OrderDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/dao/OrderDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/dao/OrderDAOImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/dao/OrderDAOImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/dto/OrderDTO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/dto/OrderDTO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/managedbeans/OrderForm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/managedbeans/OrderForm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/service/OrderService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/service/OrderService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/service/OrderServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/service/OrderServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/dao/ProductDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/dao/ProductDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/dao/ProductDAOImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/dao/ProductDAOImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/dto/ProductDTO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/dto/ProductDTO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/exception/ProductExistException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/exception/ProductExistException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/managedbeans/ProductForm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/managedbeans/ProductForm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/dto/ProductInOrderDTO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/dto/ProductInOrderDTO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/service/ProductService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/service/ProductService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/service/ProductServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/service/ProductServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/util/RequiredTypes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/util/RequiredTypes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/dto/RoleDTO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/dto/RoleDTO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/exception/RoleExistException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/exception/RoleExistException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/dao/TableDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/dao/TableDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/dao/TableDAOImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/dao/TableDAOImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/dto/TableDTO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/dto/TableDTO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/managedbeans/TableForm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/managedbeans/TableForm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/exception/TableHasActiveOrderException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/exception/TableHasActiveOrderException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/exception/TableHasNoActiveOrderException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/exception/TableHasNoActiveOrderException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/service/TableService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/service/TableService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/service/TableServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/service/TableServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/converter/UniversalConverter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/converter/UniversalConverter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/validator/UniversalValidator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/validator/UniversalValidator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/dao/UserDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/dao/UserDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/dao/UserDAOImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/dao/UserDAOImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/dto/UserDTO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/dto/UserDTO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/exception/UserExistException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/exception/UserExistException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/service/UserService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/service/UserService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/service/UserServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springContext/service/UserServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/util/Utils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/util/Utils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/managedbeans/WaiterController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/managedbeans/WaiterController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/afterdark-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/afternoon-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/afterwork-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/all-themes-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/black-tie-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/blitzer-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/bluesky-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/bootstrap-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/casablanca-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/cruze-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/cupertino-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/dark-hive-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/dot-luv-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/eggplant-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/excite-bike-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/flick-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/glass-x-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/hibernate-c3p0-4.3.11.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-4.3.11.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/home-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/hot-sneaks-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/humanity-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/jandex-1.1.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/jsf-api-2.2.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/jsf-impl-2.2.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/jsp-api-2.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/le-frog-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.3.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/midnight-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/mint-choc-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.38.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/overcast-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/pepper-grinder-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/primefaces-6.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/redmond-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/rocket-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/sam-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/servlet-api-2.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/smoothness-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/south-street-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-1.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-1.0.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.3.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-4.1.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-4.1.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-4.1.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.3.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/start-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/sunny-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/swanky-purse-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/trontastic-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/ui-darkness-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/ui-lightness-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/vader-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/managedbeans/AuthController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/configuration/ConfigurationsSpring.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/exception/CustomException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/db/DBImitation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/entity/EmployeeDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/form/EmployeeForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/form/EmployeesPopupForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/validator/ErrorTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/configuration/InitSpringAppContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/TestJSF2_war_exploded/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/managedbeans/ManagerController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_api_2_2_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_impl_2_2_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_c3p0_4_3_11_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_11_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_extensions_all_themes_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_afterdark_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_afternoon_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_afterwork_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_black_tie_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_blitzer_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_bluesky_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_bootstrap_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_casablanca_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_cruze_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_cupertino_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_dark_hive_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_dot_luv_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_eggplant_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_excite_bike_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_flick_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_glass_x_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_home_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_hot_sneaks_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_humanity_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_le_frog_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_midnight_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_mint_choc_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_overcast_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_pepper_grinder_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_redmond_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_rocket_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_sam_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_smoothness_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_south_street_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_start_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_sunny_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_swanky_purse_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_trontastic_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_ui_darkness_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_ui_lightness_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_vader_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/exception/NoSuchOrderException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/exception/NoSuchProductException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/exception/NoSuchRoleException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/exception/NoSuchTableException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/exception/NoSuchUserException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/exception/NullOrEmptyArgumentsException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/Nullable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/dao/OrderDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/dao/OrderDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/dto/OrderDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/service/OrderService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/service/OrderServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/dao/ProductDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/dao/ProductDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/dto/ProductDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/exception/ProductExistException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/dto/ProductInOrderDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/service/ProductService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/service/ProductServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/RequiredTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/dto/RoleDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/exception/RoleExistException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/dao/TableDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/dao/TableDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/dto/TableDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/exception/TableHasActiveOrderException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/exception/TableHasNoActiveOrderException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/service/TableService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/service/TableServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestJSF2.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/TestJSF2_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/TestJSF2_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/converter/UniversalConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/validator/UniversalValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/dao/UserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/dao/UserDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/dto/UserDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/exception/UserExistException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springContext/service/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/managedbeans/WaiterController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/faces-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/index.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/login.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/manager.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/manager.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/position.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/position.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/trash.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/trash.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/waiter.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/waiter.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="E:\TestWithJSF-master\target\TestJSF2-1.0-SNAPSHOT\WEB-INF\classes\managedbeans\OrderForm.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\TestWithJSF-master\target\TestJSF2-1.0-SNAPSHOT\WEB-INF\classes\managedbeans\ProductForm.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\TestWithJSF-master\target\TestJSF2-1.0-SNAPSHOT\WEB-INF\classes\managedbeans\TableForm.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\TestWithJSF-master\target\classes\managedbeans\OrderForm.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\TestWithJSF-master\target\classes\managedbeans\ProductForm.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\TestWithJSF-master\target\classes\managedbeans\TableForm.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/service/TableServiceImpl.class" afterPath="$PROJECT_DIR$/target/TestJSF2-1.0-SNAPSHOT/WEB-INF/classes/springContext/service/TableServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springContext/service/TableServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/springContext/service/TableServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/springContext/dao/ProductDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/springContext/dao/ProductDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/springContext/service/TableServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/springContext/service/TableServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestWithJSF-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -367,14 +35,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/managedbeans/AuthController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30247933">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="position.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/position.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.6">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trash.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/trash.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -383,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/managedbeans/WaiterController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -395,10 +83,20 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/springContext/service/TableServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="105" column="43" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductDAOImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springContext/dao/ProductDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.24793388">
+              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -407,12 +105,22 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/springContext/service/OrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+              <caret line="152" column="35" selection-start-line="152" selection-start-column="35" selection-end-line="152" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2250#2270#0" expanded="true" />
                 <element signature="e#2628#2638#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springContext/service/ProductServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -427,35 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AopUtils.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5555553">
-              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableDTO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/springContext/dto/TableDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
-                <element signature="e#1115#1116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="waiter.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/waiter.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.2">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state vertical-scroll-proportion="-8.666667">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -482,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/dao/ProductDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/ProductDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/TableDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/TableDAOImpl.java" />
@@ -520,9 +203,7 @@
         <option value="$PROJECT_DIR$/src/main/java/springContext/dao/TableDAO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/springContext/service/TableService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springContext/service/TableServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/springContext/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/springContext/service/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/placeholder/WaiterController.java" />
         <option value="$PROJECT_DIR$/src/main/java/managedbeans/tablebean.java" />
         <option value="$PROJECT_DIR$/src/main/java/managedbeans/TableForm.java" />
@@ -533,6 +214,9 @@
         <option value="$PROJECT_DIR$/src/main/java/springContext/dto/TableDTO.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/waiter.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/springContext/dao/TableDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springContext/service/TableServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springContext/service/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springContext/dao/ProductDAOImpl.java" />
       </list>
     </option>
   </component>
@@ -1226,12 +910,19 @@
       <created>1476029848189</created>
       <option name="number" value="Default" />
       <updated>1476029848189</updated>
-      <workItem from="1476029848906" duration="17302000" />
+      <workItem from="1476029848906" duration="18560000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit.">
+      <created>1476047227080</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1476047227080</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17302000" />
+    <option name="totallyTimeSpent" value="18560000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1309,44 +1000,40 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/springContext/service/TableServiceImpl.java</url>
-          <line>46</line>
+          <url>file://$PROJECT_DIR$/src/main/java/springContext/dao/ProductDAOImpl.java</url>
+          <line>30</line>
           <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/springContext/service/TableServiceImpl.java</url>
-          <line>48</line>
+          <url>file://$PROJECT_DIR$/src/main/java/springContext/service/ProductServiceImpl.java</url>
+          <line>27</line>
           <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/springContext/service/TableServiceImpl.java</url>
-          <line>49</line>
+          <url>file://$PROJECT_DIR$/src/main/java/springContext/service/ProductServiceImpl.java</url>
+          <line>29</line>
           <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/springContext/dao/TableDAOImpl.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="22" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
-        <watch expression="tableName" />
-        <watch expression="(TableDTO)query.list().get(0)" />
-        <watch expression="tableDTO" />
+        <watch expression="productDAO.getProductByName(productName)" />
       </configuration>
     </watches-manager>
   </component>
@@ -1439,16 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springContext/dao/ProductDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springContext/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1489,16 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springContext/service/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -1678,14 +1345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/position.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58434784">
-          <caret line="16" column="30" selection-start-line="9" selection-start-column="11" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.78086954">
@@ -1722,24 +1381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/managedbeans/WaiterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/waiter.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.2">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.5555553">
@@ -1748,25 +1389,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springContext/service/OrderServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/managedbeans/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2250#2270#0" expanded="true" />
-            <element signature="e#2628#2638#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springContext/service/TableServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/position.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.6">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/trash.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="43" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/waiter.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1778,13 +1431,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/managedbeans/AuthController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/managedbeans/WaiterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30247933">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springContext/service/TableServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springContext/service/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="152" column="35" selection-start-line="152" selection-start-column="35" selection-end-line="152" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2250#2270#0" expanded="true" />
+            <element signature="e#2628#2638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springContext/service/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springContext/dao/ProductDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24793388">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

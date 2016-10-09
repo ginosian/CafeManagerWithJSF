@@ -60,9 +60,9 @@ public class ProductDAOImpl implements ProductDAO{
         try{
             Query query = session.createQuery("from ProductDTO productDTO where productDTO.name = :name");
             query.setParameter("name", productName);
-            ProductDTO productDTO = (ProductDTO)query.list().get(0);
-            if (query.list().size() < 1) return null;
-            return productDTO;
+            List<ProductDTO> product = query.list();
+            if(product.size() == 0) return null;
+            return product.get(0);
         }
         catch (HibernateException e){
             e.printStackTrace();

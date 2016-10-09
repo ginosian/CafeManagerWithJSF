@@ -64,7 +64,7 @@ public class TableServiceImpl implements TableService{
     public TableDTO updateTableWIthWaiter(String userId, String tableId) throws Exception {
         if(userId == null || userId.isEmpty() || tableId == null || tableId.isEmpty()) throw new NullOrEmptyArgumentsException();
 
-        TableDTO tableDTO = getTable(tableId);
+        TableDTO tableDTO = getTable(Long.parseLong(tableId));
         UserDTO userDTO = userService.getUserById(userId);
 
         tableDTO.setUser(userDTO);
