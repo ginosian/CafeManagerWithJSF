@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      dir="ltr">
+
+<h:head>
+    <meta charset="utf-8"/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+</h:head>
+
+<h:body>
+    <f:view id="login">
+        <h:form id="loginFormId">
+            <h2 style="color:coral">Sign in</h2>
+
+            <div>
+                <h3>Username:</h3>
+                <p:inputText id="name" value="#{login.username}">
+                    <!--<f:validator validatorId="UniversalValidator"/>-->
+                    <!--<h:message for="name" style="color:red"/>-->
+                </p:inputText>
+            </div>
+
+            <div>
+                <h3>Password:</h3>
+                <p:inputText id="password" value="#{login.password}">
+                    <!--<f:validator validatorId="UniversalValidator"/>-->
+                    <!--<h:message for="name" style="color:red"/>-->
+                </p:inputText>
+            </div>
+
+            <div>
+                <p:commandButton value="Login"
+                                 action="#{login.login()}"/>
+            </div>
+        </h:form>
+    </f:view>
+</h:body>
+
+</html>

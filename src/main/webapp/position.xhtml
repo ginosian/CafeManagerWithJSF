@@ -1,0 +1,32 @@
+<ui:composition xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <p:dialog id="positionDialogId" modal="true" resizable="false"
+              header="Update employee position"
+              widgetVar="positionUpdateDialog"
+              closeOnEscape="true">
+        <h:form id="positionUpdateDialogId">
+            <h3>Select employee:</h3>
+            <h:selectOneMenu value="#{employeesPopupForm.name}"
+                             id="employeesList"
+                             required="true">
+                <f:selectItem itemLabel="Select One"
+                              noSelectionOption="true"/>
+                <f:selectItems value="#{employeesPopupForm.names}"/>
+            </h:selectOneMenu>
+
+
+            <h3>Enter position:</h3>
+            <p:inputText id="position" value="#{employeesPopupForm.position}">
+            </p:inputText>
+
+            <div>
+                <p:commandButton value="Submit"
+                                 actionListener="#{employeesPopupForm.updatePosition}"
+                                 oncomplete="PF('positionUpdateDialog').hide();"
+                                 update="employeesListId"/>
+            </div>
+        </h:form>
+    </p:dialog>
+</ui:composition>

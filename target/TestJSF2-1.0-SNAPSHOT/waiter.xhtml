@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      dir="ltr">
+
+<h:head>
+    <meta charset="utf-8"/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+</h:head>
+
+<h:body>
+    <h:form id="employeesListId">
+        <div>
+            <p:dataTable stickyHeader="Tables assigned to me"
+                         var="table"
+                         value="#{waiter.tables}">
+
+                <p:column headerText="Table name">
+                    <h:outputText value="#{table.name}"/>
+                </p:column>
+
+                <p:column headerText="Table id">
+                    <h:outputText value="#{table.id}"/>
+                </p:column>
+
+            </p:dataTable>
+        </div>
+    </h:form>
+</h:body>
+
+</html>

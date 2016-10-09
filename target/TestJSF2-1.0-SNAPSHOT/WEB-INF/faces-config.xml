@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+    http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+
+    <application>
+        <el-resolver>org.springframework.web.jsf.el.SpringBeanFacesELResolver</el-resolver>
+    </application>
+
+
+    <!--I really tried hard but this did not work,
+    stackoverflowed, everyone advise was to just redirect from bean so at the end I took the approach.
+    For the using Spring, in our company we use this exact scheme so I thought
+    it is more effective to keep my application as close to enterprise level as possible.
+    Narek jan if you have any idea why this doesn't work please drop a hint.-->
+
+    <!--<navigation-rule>-->
+        <!--<from-view-id>/faces/login.xhtml</from-view-id>-->
+        <!--<navigation-case>-->
+            <!--<from-outcome>success</from-outcome>-->
+            <!--<to-view-id>/faces/waiter.xhtml</to-view-id>-->
+        <!--</navigation-case>-->
+        <!--<navigation-case>-->
+            <!--<from-outcome>failure</from-outcome>-->
+            <!--<to-view-id>/faces/login.xhtml</to-view-id>-->
+        <!--</navigation-case>-->
+    <!--</navigation-rule>-->
+
+  
+</faces-config>

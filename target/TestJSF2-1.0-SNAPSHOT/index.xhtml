@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      dir="ltr">
+
+<h:head>
+    <meta charset="utf-8"/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+</h:head>
+
+<h:body>
+    <h:form id="employeesListId">
+        <div>
+            <p:dataTable var="employee"
+                         value="#{EmployeeForm.employees}">
+
+                <p:column headerText="Synergik name">
+                    <h:outputText value="#{employee.name}"/>
+                </p:column>
+
+                <p:column headerText="Synergik birthday date"
+                          pattern="dd/MM/yyyy">
+                    <h:outputText value="#{employee.birthDate}"/>
+                </p:column>
+
+                <p:column headerText="Position"
+                          colspan="2">
+                    <h:outputText value="#{employee.position}"/>
+                </p:column>
+
+            </p:dataTable>
+        </div>
+    </h:form>
+    <ui:include src="position.xhtml"/>
+    <h:form id="newEmployeeFormId">
+        <h2 style="color:coral">New Synergik</h2>
+
+        <div>
+            <h3>Synergik name:</h3>
+            <p:inputText id="name" value="#{employeeForm.name}">
+                <f:validator validatorId="UniversalValidator"/>
+                <h:message for="name" style="color:red"/>
+            </p:inputText>
+        </div>
+
+        <div>
+            <h3>Select birthday date</h3>
+            <p:calendar id="birthDate"
+                        value="#{employeeForm.birthDate}"
+                        showOn="button"
+                        readonlyInput="true">
+                <f:validator validatorId="UniversalValidator"/>
+            </p:calendar>
+            <h:message for="birthDate" style="color:red"/>
+        </div>
+
+        <div>
+            <p:commandButton value="Add"
+                             action="#{employeeForm.addRecord()}"
+                             update="employeesListId newEmployeeFormId"/>
+        </div>
+    </h:form>
+    <h:form>
+        <h2 style="color:coral">Update position:</h2>
+
+        <div>
+            <p:commandButton value="Update position"
+                             update=":positionUpdateDialogId"
+                             oncomplete="PF('positionUpdateDialog').show();"/>
+        </div>
+        <div>
+            <h:message for=":positionUpdateDialogId:position" style="color:red"/>
+        </div>
+    </h:form>
+</h:body>
+
+</html>
