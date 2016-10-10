@@ -55,8 +55,8 @@ public class AuthController implements Serializable {
             final String manager = environment.getProperty("role_manager");
 
             if (role.equals(waiter)) return "waiter.xhtml?faces-redirect=true";
-            if (role.equals(manager)) return "waiter.xhtml?faces-redirect=true";
-            else return "waiter.xhtml?faces-redirect=true";
+            if (role.equals(manager)) return "manager.xhtml?faces-redirect=true";
+            else return "login.xhtml?faces-redirect=true";
         }
         return "waiter.xhtml?faces-redirect=true";
     }

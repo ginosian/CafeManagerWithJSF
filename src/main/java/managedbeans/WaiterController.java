@@ -3,10 +3,7 @@ package managedbeans;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.context.support.WebApplicationContextUtils;
-import springContext.dto.ProductDTO;
-import springContext.dto.ProductInOrderDTO;
-import springContext.dto.TableDTO;
-import springContext.dto.UserDTO;
+import springContext.dto.*;
 import springContext.service.OrderService;
 import springContext.service.ProductService;
 import springContext.service.TableService;
@@ -21,6 +18,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by Martha on 7/29/2016.
@@ -61,13 +59,19 @@ public class WaiterController  implements Serializable {
 //    @ManagedProperty(value="#{table}")
     private List<TableDTO> tables;
     private List<ProductDTO> products;
-    private List<ProductInOrderDTO> selectedProducts;
+    private Set<ProductInOrderDTO> selectedProducts;
     private UserDTO waiter;
+    private Long tableId;
     private boolean defalutsAreSet;
 
 
 
     public WaiterController() {
+    }
+
+    public void addProductsToOrder () throws Exception {
+        TableDTO table = tableService.getTable(tableId);
+        OrderDTO order = new OrderDTO(selectedProducts, table);
     }
 
     public List<TableDTO> getTables() throws Exception {
@@ -83,7 +87,15 @@ public class WaiterController  implements Serializable {
         this.tables = tables;
     }
 
-    public List<ProductDTO> getProducts() {
+    public List<ProductDTO> getProducts(){
+        List<ProductDTO> products;
+        try {
+            products = productService.getAllProducts();
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("******************************************************************************");
+            return null;
+        }
         return products;
     }
 
@@ -91,11 +103,19 @@ public class WaiterController  implements Serializable {
         this.products = products;
     }
 
-    public List<ProductInOrderDTO> getSelectedProducts() {
+    public Set<ProductInOrderDTO> getSelectedProducts() {
         return selectedProducts;
     }
 
-    public void setSelectedProducts(List<ProductInOrderDTO> selectedProducts) {
+    public void setSelectedProducts(Set<ProductInOrderDTO> selectedProducts) {
         this.selectedProducts = selectedProducts;
+    }
+
+    public Long getTableId() {
+        return tableId;
+    }
+
+    public void setTableId(Long tableId) {
+        this.tableId = tableId;
     }
 }

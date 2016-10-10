@@ -97,8 +97,6 @@ public class UserServiceImpl implements UserService{
     public void initDefaultUsers() {
         if(DEFAULTS_ARE_SET) return;
 
-        userDAO.addRememberMeTable();
-
         String manager_username = environment.getProperty("manager_name");
         String manager_password = environment.getProperty("manager_password");
         String waiter_username = environment.getProperty("waiter_username");

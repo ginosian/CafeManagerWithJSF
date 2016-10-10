@@ -1,12 +1,11 @@
 package springContext.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import springContext.dao.ProductDAO;
 import springContext.dto.ProductDTO;
 import springContext.exception.NoSuchProductException;
 import springContext.exception.NullOrEmptyArgumentsException;
-import springContext.exception.ProductExistException;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.util.List;
@@ -25,7 +24,7 @@ public class ProductServiceImpl implements ProductService {
     public ProductDTO createProduct(String productName) throws Exception {
         if(productName == null || productName.isEmpty()) throw new NullOrEmptyArgumentsException();
 
-        if(productDAO.getProductByName(productName) != null) throw new ProductExistException();
+//        if(productDAO.getProductByName(productName) != null) throw new ProductExistException();
 
         return productDAO.addProduct(new ProductDTO(productName));
     }
