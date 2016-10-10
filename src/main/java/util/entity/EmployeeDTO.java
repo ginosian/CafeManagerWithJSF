@@ -1,4 +1,4 @@
-package entity;
+package util.entity;
 
 import util.RequiredTypes;
 

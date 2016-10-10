@@ -1,4 +1,4 @@
-import entity.EmployeeDTO;
+import util.entity.EmployeeDTO;
 import util.Utils;
 
 import java.util.Date;

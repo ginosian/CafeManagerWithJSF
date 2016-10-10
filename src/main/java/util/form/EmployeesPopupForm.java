@@ -1,6 +1,6 @@
-package form;
+package util.form;
 
-import db.DBImitation;
+import util.db.DBImitation;
 
 import javax.faces.bean.ManagedBean;
 import java.util.Collection;

@@ -13,6 +13,8 @@
 </h:head>
 
 <h:body>
+    <ui:include src="addOrder.xhtml"/>
+
     <h:form id="employeesListId">
         <div>
             <p:dataTable stickyHeader="Tables assigned to me"
@@ -23,8 +25,12 @@
                     <h:outputText value="#{table.name}"/>
                 </p:column>
 
-                <p:column headerText="Table id">
-                    <h:outputText value="#{table.id}"/>
+                <p:column headerText="Orders">
+                    <div>
+                        <p:commandButton value="Add order"
+                                         update=":addOrderDialogId"
+                                         oncomplete="PF('addOrderUpdateDialog').show();"/>
+                    </div>
                 </p:column>
 
             </p:dataTable>

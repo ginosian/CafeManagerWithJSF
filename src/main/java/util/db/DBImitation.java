@@ -1,6 +1,6 @@
-package db;
+package util.db;
 
-import entity.EmployeeDTO;
+import util.entity.EmployeeDTO;
 
 import java.util.ArrayList;
 import java.util.Collection;

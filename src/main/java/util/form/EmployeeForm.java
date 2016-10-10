@@ -1,7 +1,7 @@
-package form;
+package util.form;
 
-import db.DBImitation;
-import entity.EmployeeDTO;
+import util.db.DBImitation;
+import util.entity.EmployeeDTO;
 
 import javax.faces.bean.ManagedBean;
 import java.util.Collection;

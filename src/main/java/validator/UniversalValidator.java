@@ -1,6 +1,6 @@
 package validator;
 
-import db.DBImitation;
+import util.db.DBImitation;
 import util.Utils;
 
 import javax.faces.application.FacesMessage;
