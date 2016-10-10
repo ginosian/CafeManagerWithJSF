@@ -3,6 +3,8 @@ package managedbeans;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.context.support.WebApplicationContextUtils;
+import springContext.dto.ProductDTO;
+import springContext.dto.ProductInOrderDTO;
 import springContext.dto.TableDTO;
 import springContext.dto.UserDTO;
 import springContext.service.OrderService;
@@ -58,6 +60,8 @@ public class WaiterController  implements Serializable {
 
 //    @ManagedProperty(value="#{table}")
     private List<TableDTO> tables;
+    private List<ProductDTO> products;
+    private List<ProductInOrderDTO> selectedProducts;
     private UserDTO waiter;
     private boolean defalutsAreSet;
 
@@ -77,5 +81,21 @@ public class WaiterController  implements Serializable {
 
     public void setTables(List<TableDTO> tables) {
         this.tables = tables;
+    }
+
+    public List<ProductDTO> getProducts() {
+        return products;
+    }
+
+    public void setProducts(List<ProductDTO> products) {
+        this.products = products;
+    }
+
+    public List<ProductInOrderDTO> getSelectedProducts() {
+        return selectedProducts;
+    }
+
+    public void setSelectedProducts(List<ProductInOrderDTO> selectedProducts) {
+        this.selectedProducts = selectedProducts;
     }
 }

@@ -45,7 +45,7 @@ public class ConfigurationsSpring extends WebMvcConfigurerAdapter {
 
     public Properties hibernateProperties(){
         Properties hibernateProperties = new Properties();
-        hibernateProperties.put("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
+        hibernateProperties.put("hibernate.dialect", "org.hibernate.dialect.SQLServerDialect");
         hibernateProperties.put("hibernate.hbm2ddl.auto", "create");
         hibernateProperties.put("hibernate.c3p0.max_size", 5);
         hibernateProperties.put("hibernate.c3p0.min_size", 1);

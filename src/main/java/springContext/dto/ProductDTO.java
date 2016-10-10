@@ -1,5 +1,6 @@
 package springContext.dto;
 
+import javax.faces.bean.ManagedBean;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -8,6 +9,7 @@ import javax.persistence.Table;
 /**
  * Created by Martha on 7/29/2016.
  */
+@ManagedBean(name = "product")
 @Entity
 @Table(name = "products")
 public class ProductDTO {

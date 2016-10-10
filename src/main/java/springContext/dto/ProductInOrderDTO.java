@@ -1,10 +1,12 @@
 package springContext.dto;
 
+import javax.faces.bean.ManagedBean;
 import javax.persistence.*;
 
 /**
  * Created by Martha on 7/29/2016.
  */
+@ManagedBean(name = "productInOrder")
 @Entity
 @Table(name = "productInOrder")
 public class ProductInOrderDTO {

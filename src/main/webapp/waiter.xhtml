@@ -26,10 +26,13 @@
                 </p:column>
 
                 <p:column headerText="Orders">
+                    <f:metadata>
+                        <f:viewParam name="table" value="#{table.id}" />
+                    </f:metadata>
                     <div>
                         <p:commandButton value="Add order"
-                                         update=":addOrderDialogId"
-                                         oncomplete="PF('addOrderUpdateDialog').show();"/>
+                                         update=":productForOrderDialogId"
+                                         oncomplete="PF('productAddingDialog').show();"/>
                     </div>
                 </p:column>
 

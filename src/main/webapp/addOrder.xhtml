@@ -2,31 +2,27 @@
                 xmlns:h="http://xmlns.jcp.org/jsf/html"
                 xmlns:p="http://primefaces.org/ui"
                 xmlns:f="http://xmlns.jcp.org/jsf/core">
-    <p:dialog id="positionDialogId" modal="true" resizable="false"
-              header="Update employee position"
-              widgetVar="positionUpdateDialog"
+    <p:dialog id="productForOrderDialogId" modal="true" resizable="false"
+              header="Add product for order"
+              widgetVar="productAddingDialog"
               closeOnEscape="true">
-        <h:form id="positionUpdateDialogId">
-            <h3>Select employee:</h3>
-            <h:selectOneMenu value="#{employeesPopupForm.name}"
-                             id="employeesList"
-                             required="true">
-                <f:selectItem itemLabel="Select One"
-                              noSelectionOption="true"/>
-                <f:selectItems value="#{employeesPopupForm.names}"/>
-            </h:selectOneMenu>
 
+        <h:form id="productAddingDialogId">
+            <h:panelGrid columns="3" cellpadding="5">
+                <h:outputLabel for="menu" value="Products:" />
+                <p:selectCheckboxMenu id="menu" value="#{waiter.selectedProducts}" label="Products"
+                                      filter="true" filterMatchMode="startsWith" panelStyle="width:250px">
+                    <f:selectItems value="#{waiter.products}" />
+                </p:selectCheckboxMenu>
+                <p:commandLink value="Submit" update="display" />
+            </h:panelGrid>
 
-            <h3>Enter position:</h3>
-            <p:inputText id="position" value="#{employeesPopupForm.position}">
-            </p:inputText>
-
-            <div>
-                <p:commandButton value="Submit"
-                                 actionListener="#{employeesPopupForm.updatePosition}"
-                                 oncomplete="PF('positionUpdateDialog').hide();"
-                                 update="employeesListId"/>
-            </div>
+            <p:outputPanel id="display" style="width:250px;padding-left:5px;margin-top:10px">
+                <p:dataList value="#{waiter.selectedProducts}" var="city" emptyMessage="No products selected">
+                    #{productInOrder}
+                </p:dataList>
+            </p:outputPanel>
         </h:form>
+
     </p:dialog>
 </ui:composition>
